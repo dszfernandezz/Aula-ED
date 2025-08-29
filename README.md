@@ -6,7 +6,7 @@ Este repositório é dedicado aos exercícios e projetos da disciplina de Estrut
 * C
 
 ## Tópicos Abordados
-*Listas
-*Estruturas lineares e encadeadas
-*Árvores
-*Grafos
+* Listas
+* Estruturas lineares e encadeadas
+* Árvores
+* Grafos
