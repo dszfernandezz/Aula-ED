@@ -61,5 +61,7 @@ int main(){
 
     consultar_elemento(d);
 
+    free(d);
+
     return 0;
 }
