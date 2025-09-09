@@ -23,7 +23,7 @@ Lista* lst_retira(Lista *l, int v){
 }
 
 Lista *lst_retira_ant(Lista *l, int v){
-    // retorna caso a lista esteja 
+    // retorna caso a lista esteja:
     // vazia ou com apenas um elemento
     if (l == NULL || l->prox == NULL || l->info == v) return l;
 

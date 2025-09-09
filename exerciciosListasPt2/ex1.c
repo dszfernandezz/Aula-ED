@@ -21,7 +21,7 @@ int main(){
     l = lst_insere(l, -2);
 
     lst_imprime(l);
-
+    
     printf("\n");
     lst_altera(l);
     lst_imprime(l);
