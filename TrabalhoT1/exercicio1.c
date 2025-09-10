@@ -47,7 +47,11 @@ void consultar_elemento(Diagonal *d){
 
     if (i < 0 || j < 0 || i >= d->ordem || j >= d->ordem) printf("valor invalido");
     else (i!=j) ? printf("O valor é NULL\n") : printf("valor de [%d][%d]: %d\n", i, j, d->v[i]);
+}
 
+void liberar_memoria(Diagonal *d){
+    free(d->v);
+    free(d);
 }
 
 
@@ -61,7 +65,7 @@ int main(){
 
     consultar_elemento(d);
 
-    free(d);
+    liberar_memoria(d);
 
     return 0;
 }
