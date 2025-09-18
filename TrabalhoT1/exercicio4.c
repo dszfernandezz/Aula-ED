@@ -12,7 +12,7 @@ int input_linha(){
         while (getchar() != '\n');
         
         if (elemento == 1 && valor > 0) break;
-        else printf("\nInsira um valor válido!");
+        else printf("\nInsira um valor válido!\n");
     }
     return valor;
 }
@@ -28,7 +28,7 @@ int input_coluna(){
         while (getchar() != '\n');
         
         if (elemento == 1 && valor > 0) break;
-        else printf("\nInsira um valor válido!");
+        else printf("\nInsira um valor válido!\n");
     }
     return valor;
 }
@@ -44,7 +44,7 @@ int input_profundidade(){
         while (getchar() != '\n');
         
         if (elemento == 1 && valor > 0) break;
-        else printf("\nInsira um valor válido!");
+        else printf("\nInsira um valor válido!\n");
     }
     return valor;
 }
